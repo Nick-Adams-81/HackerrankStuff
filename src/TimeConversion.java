@@ -15,7 +15,7 @@ public class TimeConversion {
 
     }
     public static void main(String[] args) {
-        String myTime = "03:01:00PM";
+        String myTime = "12:05:39AM";
         System.out.println(timeConversion(myTime));
     }
 }
