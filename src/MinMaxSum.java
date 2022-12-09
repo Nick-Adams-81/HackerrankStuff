@@ -26,9 +26,6 @@ public class MinMaxSum {
         myArr.add(5);
         myArr.add(7);
         myArr.add(9);
-//        for(int i : myArr) {
-//            System.out.println(i);
-//        }
 
         minMax(myArr);
     }
