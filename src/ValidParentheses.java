@@ -22,7 +22,7 @@ public class ValidParentheses {
     }
 
     public static void main(String[] args) {
-        String myStr = "[]{})";
+        String myStr = "([]{})";
         System.out.println(validParentheses(myStr));
     }
 }
