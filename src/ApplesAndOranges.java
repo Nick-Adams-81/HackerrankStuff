@@ -15,7 +15,7 @@ public class ApplesAndOranges {
         }
 
         for(int i = 0; i < oranges.size(); i++) {
-            int pos = a + oranges.get(i);
+            int pos = b + oranges.get(i);
             if(pos >= s && pos <= t) {
                 orange++;
             }
