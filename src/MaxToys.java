@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MaxToys {
@@ -6,6 +7,7 @@ public class MaxToys {
     public static int maxToys(List<Integer> prices, int k) {
         int maxToys = 0;
         if(prices.size() == 0) return maxToys;
+        Collections.sort(prices);
         for (Integer price : prices) {
             k -= price;
             if (k < 0) return maxToys;
